@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <div class="container">
-                <div>
-                    <p class="logo-text"><span>A</span>JAY</p>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#project">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <div class="container">
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>AJAY</span><br>From INDIA</h1>
-            </div>
-        </div>
-    </div>
+  <!-- HEADER SECTION -->
+  <div id="header">
+    <nav>
+      <p class="logo-text"><span>A</span>JAY</p>
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <div id="about" class="container">
-        <div id="row">
-            <div class="about-col1">
-                <img src="images/user.jpg" alt="user">
-            </div>
-            <div class="about-col2">
-                <h1 class="sub-title">About Me</h1>
-
-                <p>I am Gaddam Ajay Kumar, an aspiring Full Stack Developer and Technology Consultant with a strong passion for coding and solving real-world problems through technology.
-                Currently pursuing B.Tech in CSE (Data Science) at CMR Institute of Technology, I bring hands-on experience in building dynamic web applications using Java, Python, HTML, CSS, JavaScript, React, Node.js, and Express JS.
-                I am consistently improving my knowledge in areas like machine learning, data analysis, and cloud computing, while preparing for placements in top tech firms.
-                I'm a team player with good communication skills and a drive to learn and grow. Outside tech, I enjoy music, movies, and gaming.</p>
-
-                <div class="tab-title">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('Education')">Education</p>
-                </div>
-
-                <div class="tab-content active-tab" id="skills">
-                    <ul>
-                        <li><span>Languages:</span> Java, Python, C, HTML, CSS, JavaScript</li>
-                        <li><span>Frameworks:</span> React, Node.js, Express.js, Bootstrap, Tailwind CSS</li>
-                        <li><span>Databases:</span> SQL</li>
-                        <li><span>Tools:</span> VS Code, Git, MS Office</li>
-                        <li><span>Soft Skills:</span> Communication, Time Management, Teamwork, Leadership</li>
-                    </ul>
-                </div>
-
-                <div class="tab-content" id="Education">
-                    <ul>
-                        <li><span>B.Tech - CSE (Data Science)</span><br>CMR Institute of Technology, CGPA: 6.67</li>
-                        <li><span>Diploma in Engineering</span><br>Vaagdevi Engineering College, Percentage: 68.05%</li>
-                        <li><span>SSC</span><br>ZPSS High School, Percentage: 58%</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-   <div class="project-section" id="project">
-        <div class="container-section">
-                <h1 class="sub-title">Projects</h1>
-                <div class="project-row">
-                    <div class="project-details"style="margin-bottom: 30px;">
-                        <h2>Portfolio Website</h2>
-                        <p>A personal responsive portfolio website to showcase my skills, education, projects, and contact information. Designed using HTML, CSS, and JavaScript, with smooth scroll, section transitions, and interactive UI elements.</p>
-                        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-                        <a href="#" class="btn">View Live</a>
-                    </div>
-                    <div class="project-details"style="margin-top: 30px;">
-                    <h2>ToDo Application</h2>
-                    <p>A simple and efficient ToDo web app to help manage daily tasks with features like adding, deleting, and marking tasks as complete. It has a clean, user-friendly interface and persistent storage using Local Storage.</p>
-                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-                    <a href="https://gaddamajaykumar.github.io/TODO-repo/" target="_blank" class="btn">View Live</a>
-                </div>
-                </div>
-        </div>
-   </div>
-
- <div id="contact">
-  <div class="container contact-container">
-    <div class="contact-title">
-      <h1 class="sub-title">Contact Me</h1>
-    </div>
-    <div class="contact-left">
-      <p><i class="fas fa-paper-plane"></i> gaddamajaykumar1@gmail.com</p>
-      <p><i class="fas fa-phone-alt"></i> +91 9701207493</p>
-      <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
-
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/ajay-kumar-gaddam-299475294/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/GADDAMAJAYKUMAR" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:gaddamajaykumar1@gmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
-      </div>
-
-      <a href="https://drive.google.com/uc?export=download&id=1r2KMtMeJxjqnKyvKkvAW773QMWqenU38" download class="btn">Download Resume</a>
-
-    </div>
-
-    <div class="contact-right">
-      <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+    <div class="header-text">
+      <p>Web Developer</p>
+      <h1>Hi, I'm <span>AJAY</span><br />From INDIA</h1>
     </div>
   </div>
-</div>
 
+  <!-- ABOUT SECTION -->
+  <div id="about" class="container">
+    <div id="row">
+      <div class="about-col1">
+        <img src="images/user.jpg" alt="user" />
+      </div>
+      <div class="about-col2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          I am Gaddam Ajay Kumar, an aspiring Full Stack Developer and Technology Consultant with a strong passion for coding and solving real-world problems through technology.
+          Currently pursuing B.Tech in CSE (Data Science) at CMR Institute of Technology, I bring hands-on experience in building dynamic web applications using Java, Python, HTML, CSS, JavaScript, React, Node.js, and Express JS.
+          I am consistently improving my knowledge in areas like machine learning, data analysis, and cloud computing, while preparing for placements in top tech firms.
+          I'm a team player with good communication skills and a drive to learn and grow. Outside tech, I enjoy music, movies, and gaming.
+        </p>
 
-<script src="script.js"></script>
-    
+        <div class="tab-title">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+
+        <div class="tab-content active-tab" id="skills">
+          <ul>
+            <li><span>Languages:</span> Java, Python, C, HTML, CSS, JavaScript</li>
+            <li><span>Frameworks:</span> React, Node.js, Express.js, Bootstrap, Tailwind CSS</li>
+            <li><span>Databases:</span> SQL</li>
+            <li><span>Tools:</span> VS Code, Git, MS Office</li>
+            <li><span>Soft Skills:</span> Communication, Time Management, Teamwork, Leadership</li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="Education">
+          <ul>
+            <li><span>B.Tech - CSE (Data Science)</span><br />CMR Institute of Technology, CGPA: 6.67</li>
+            <li><span>Diploma in Engineering</span><br />Vaagdevi Engineering College, Percentage: 68.05%</li>
+            <li><span>SSC</span><br />ZPSS High School, Percentage: 58%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS SECTION -->
+  <div class="project-section" id="project">
+    <div class="container-section">
+      <h1 class="sub-title">Projects</h1>
+      <div class="project-row">
+        <div class="project-details">
+          <h2>Portfolio Website</h2>
+          <p>
+            A personal responsive portfolio website to showcase my skills, education, projects, and contact information.
+            Designed using HTML, CSS, and JavaScript, with smooth scroll, section transitions, and interactive UI elements.
+          </p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+          <a href="https://gaddamajaykumar.github.io/Portfolio/" class="btn" target="_blank">View Live</a>
+        </div>
+        <div class="project-details">
+          <h2>ToDo Application</h2>
+          <p>
+            A simple and efficient ToDo web app to help manage daily tasks with features like adding, deleting, and marking tasks as complete.
+            It has a clean, user-friendly interface and persistent storage using Local Storage.
+          </p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+          <a href="https://gaddamajaykumar.github.io/TODO-repo/" class="btn" target="_blank">View Live</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div id="contact">
+    <div class="container contact-container">
+      <div class="contact-title">
+        <h1 class="sub-title">Contact Me</h1>
+      </div>
+      <div class="contact-left">
+        <p><i class="fas fa-paper-plane"></i> gaddamajaykumar1@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9701207493</p>
+        <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ajay-kumar-gaddam-299475294/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/GADDAMAJAYKUMAR" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:gaddamajaykumar1@gmail.com" title="Send Email"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <a href="https://drive.google.com/uc?export=download&id=1r2KMtMeJxjqnKyvKkvAW773QMWqenU38" download class="btn">Download Resume</a>
+      </div>
+
+      <div class="contact-right">
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
 </body>
 </html>
